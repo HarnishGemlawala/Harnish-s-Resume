@@ -1,0 +1,243 @@
+%-------------------------
+% Resume in Latex
+% Author : Harnish Gemlawala
+% Based off of: https://github.com/HarnishGemlawala
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Harnish Gemlawala} \\ \vspace{3pt}
+    \small 647-614-7330 $|$ \href{mailto:harnishgemlawala02@gmail.com}{\underline{harnishgemlawala02@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/harnish-gemlawala-25a866135/}{\underline{linkedin.com/in/harnish-gemlawala}} $|$
+    \href{https://github.com/HarnishGemlawala}{\underline{github.com/HarnishGemlawala}}
+\end{center}
+
+%-----------Technical SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java-J2EE, Python, SQL (Oracle), JavaScript, HTML/CSS, Ajax} \\
+     \textbf{Frameworks}{: Struts2, React, Node.js, JUnit, RESTful services, Spring, TortoiseSVN } \\
+     \textbf{Developer Tools}{: Git, VS Code, PyCharm, IntelliJ, Eclipse} \\
+     \textbf{Libraries}{: Hibernate, Bootstrap, Google GSON, SoapUI WSDL , NumPy }\\
+     \textbf{Other Softwares}{: MATLAB Script and Simulink, AutoCAD 3D Design, AutoCAD Electrical, MS Office tools: Excel, Outlook, Teams, Word, PowerPoint }
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Windsor}{Windsor, ON}
+      {Master of Engineering in Electrical and Computer Engineering}{May 2022 -- August 2023}
+    \resumeSubheading
+      {Gujarat Technological University}{Surat, India}
+      {Bachelor of Engineering in Electrical Engineering}{July 2016 -- August 2020}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Production Operator}{September 2023 -- Present}
+      {The Job Shopee (Vista Print) }{Windsor, ON}
+      \resumeItemListStart
+        \resumeItem{Operated and maintained printing machinery at Vistaprint, ensuring seamless production. Conducted quality checks, reducing defects. }
+        \resumeItem{  Collaborated with teams to meet production targets and assisted new members.}
+        \resumeItem{Executed routine equipment maintenance, minimizing downtime.}
+        \resumeItem{Adhered to safety protocols, contributing to a zero-accident record.Given appreciation by Production Coordinator for meeting targets and maintaining high standards.}
+        \resumeItem{Given appreciation by Production Coordinator for meeting targets and maintaining high standards.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Student Advisor}{December 2022 -- August 2023}
+      {University of Windsor (International Student Centre)}{Windsor, ON}
+      \resumeItemListStart
+        \resumeItem{Provided guidance and support to international students for academic success. Assisted students with visa regulations, immigration documents, and cultural adaptation}
+        \resumeItem{Organized orientation programs and workshops to enhance students' integration experience.}
+        \resumeItem{Fostered a welcoming and inclusive environment, addressing students' concerns and needs.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Web Application Developer}{April 2021 -- April 2022}
+      {Wipro Limited}{Pune, India}
+      \resumeItemListStart
+        \resumeItem{Mastered Java J2EE, HTML, CSS, JavaScript, and frameworks. Enhanced skills through online courses and projects.}
+        \resumeItem{Applied Lean and Agile methods, driving process efficiency.}
+        \resumeItem{Honed client communication skills for effective solutions. Developed REST API, Soap WSDL for seamless telecom service ticketing between companies.}
+        \resumeItem{Automated server check system, dynamic alerts for swift issue resolution. Designed user portal for top telecom provider.}
+        
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+%-----------Internship-----------
+\section{Internship}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Research Assitant}{August 2019 -- September 2020}
+      {Rollscoax}{Surat, India}
+      \resumeItemListStart
+        \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
+        \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
+        \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{AES Encryption design and Vigenere Cipher} $|$ \emph{Python,NumPy, Java}}{January 2023 -- April 2023}
+          \resumeItemListStart
+            \resumeItem{Implemented Advanced Encryption Standard (AES) algorithm using Python and the later with Java, ensuring secure data encryption.}
+            \resumeItem{Developed robust encryption functionality, adhering to industry best practices and data security standards.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Smart parking system} $|$ \emph{MATLAB Script}}{November 2022 -- December 2022}
+          \resumeItemListStart
+            \resumeItem{Designed a pin authentication-based parking system with User Identification and parking spot allotment.}
+            \resumeItem{Implemented this design using MATLAB scripting and Arduino micro controller for Pin authentication, spot allotment and User display.}
+          \resumeItemListEnd
+       \resumeProjectHeading
+          {\textbf{Telecomm API Development} $|$ \emph{ Java, Struts2, Spring, Javascript, REST api, WSDL}}{June 2021 -- April 2022}
+          \resumeItemListStart
+            \resumeItem{Integrated JSON and XML communication channels using Gson Rest API and SoapUI for API connections.}
+            \resumeItem{Optimized SQL databases with efficient Queries, Procedures, Triggers for Disaster Recovery.}
+            \resumeItem{Transformed MPA module into a dynamic Single Page App and upgraded to Angular 10, AJAX, and Strut2.}
+            \resumeItem{Recognized for client management, exceptional service, and upgrading ticketing systems, fostering commendation}
+          \resumeItemListEnd
+     \resumeProjectHeading
+          {\textbf{Vertical Crawling Inspection ROBOT} $|$ \emph{AutoCAD 3D Design, MATLAB Script}}{August 2019 -- August 2020}
+          \resumeItemListStart
+            \resumeItem{Designed 3D Chassis model of Vertical Crawling ROBOT for Metallic Surface Inspection using AutoCAD.}
+            \resumeItem{Developed a wireless crawler ROBOT with Camera and Probe mounting with magnet gripping wheels.}
+            \resumeItem{Successfully Tested the ROBOT for thickness measurement and Visual inspection in  \emph{Arcellar Mittal and Nippon Steel} Industry at higher altitude.}
+          \resumeItemListEnd    
+    \resumeSubHeadingListEnd
+
+
+
+%
+
+\end{document}
